@@ -45,7 +45,7 @@ def default(tital,body):
     Send_Notification(tok1,sd,tital,body)
     Send_Notification(tok2, sd, tital,body)
     Send_Notification(tok3, sd, tital,body)
-
+    return '<h1>Message is Send...<h1>'
 # driver function
 if __name__ == '__main__':
     app.run(debug=True)
