@@ -1,5 +1,4 @@
 
-import pandas as pd
 from flask import Flask #jsonify, request,send_file
 #from flask_restful import Resource, Api
 import requests
@@ -62,7 +61,7 @@ def App_Being_Used(sdk_path, save_path):
         # print('DATU :',key.to_dict()['date'])
         Count(name, key.to_dict()['date'])
 
-    ddf=pd.DataFrame(d)
+
     return d
     # with open(save_path, 'w+') as f:
     #
